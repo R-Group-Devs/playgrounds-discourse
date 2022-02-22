@@ -9,11 +9,11 @@
   "name": "Playgrounds Theme",
   "color_schemes": {
     "light": {
-      "primary": "1c1c1c",
+      "primary": "000000",
       "secondary": "F9FCFF",
       "tertiary": "3877e5",
       "quaternary": "7E8B93",
-      "header_background": "F9FCFF",
+      "header_background": "000000",
       "header_primary": "122b43",
       "highlight": "E6CB37",
       "danger": "D05454",

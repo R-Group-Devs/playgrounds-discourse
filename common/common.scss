@@ -21,10 +21,11 @@ h3, h4, h5, h6 {
 }
 
 .btn-primary {
-  background: #fff;
+  background: var(--primary);
 }
 
 .d-header #site-text-logo {
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -32,7 +33,7 @@ h3, h4, h5, h6 {
 .custom-search-banner-wrap {
   margin: 0 auto !important;
   max-width: unset;
-  color: var(--secondary);
+  color: var(--primary);
 
   p {
     margin: 30px auto 50px;
