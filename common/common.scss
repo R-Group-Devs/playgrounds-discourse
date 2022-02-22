@@ -25,6 +25,7 @@ h3, h4, h5, h6 {
 }
 
 .d-header #site-text-logo {
+  font-size: var(--font-up-2);
   color: var(--secondary);
   text-transform: uppercase;
 }
@@ -32,6 +33,7 @@ h3, h4, h5, h6 {
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
+  padding: 2em 0;
   max-width: unset;
   color: var(--primary);
 
