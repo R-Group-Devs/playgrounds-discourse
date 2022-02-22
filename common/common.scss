@@ -25,13 +25,11 @@ h1 {
   margin: 0 auto !important;
   max-width: unset;
   color: var(--secondary);
-  h1 {
-    font-size: 4em !important;
-  }
+
   p {
-    font-size: 1.25em !important;
-    font-weight: bold;
-    margin-bottom: 1em;
+    margin: 30px auto 50px;
+    max-width: 800px;
+    font-size: 25px !important;
   }
   .btn {
     height: 100%;
