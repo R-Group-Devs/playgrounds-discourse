@@ -25,7 +25,7 @@ h3, h4, h5, h6 {
 }
 
 .d-header #site-text-logo {
-  color: #fff;
+  color: var(--secondary);
   text-transform: uppercase;
 }
 
@@ -262,7 +262,7 @@ div.ac-wrap {
 }
 
 html {
-  background-color: #fff;
+  background-color: var(--secondary);
   background-image: url($HeaderBackground);
   background-size: 40px;
 }
@@ -274,7 +274,7 @@ html body #main-outlet {
   border-radius: 1em;
   padding: 3em 3em 5%;
   max-width: 1150px;
-  border: 3px solid #fff;
+  border: 3px solid var(--primary);
   .archetype-regular & {
     min-height: 500px;
   }
