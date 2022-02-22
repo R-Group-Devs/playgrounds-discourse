@@ -114,6 +114,12 @@ h3, h4, h5, h6 {
   overflow: hidden;
 }
 
+.category-box {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  border: 2px solid #0d0d0d !important;
+}
+
 .badge-wrapper.bullet {
   .badge-category-bg {
     border-radius: 0.125em;
