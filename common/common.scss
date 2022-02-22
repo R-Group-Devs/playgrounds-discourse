@@ -1,6 +1,15 @@
 @font-face {
+  font-family: BodyFont;
+  src: url($BodyFont) format('woff2');
+}
+
+@font-face {
   font-family: DisplayFont;
   src: url($DisplayFont) format('woff2');
+}
+
+body {
+  font-family: BodyFont, monospace !important;
 }
 
 h1 {
