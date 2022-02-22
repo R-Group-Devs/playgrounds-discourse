@@ -262,19 +262,9 @@ div.ac-wrap {
 }
 
 html {
-  background-color: var(--primary);
-
-  .background-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    background: #fff;
-    background-image: url($HeaderBackground);
-    background-size: 40px;
-    clip-path: ellipse(148% 70% at 91% -14%);
-  }
+  background-color: #fff;
+  background-image: url($HeaderBackground);
+  background-size: 40px;
 }
 
 html body #main-outlet {
@@ -520,9 +510,6 @@ html body #main-outlet {
 }
 
 .published-page {
-  .background-container {
-    display: none;
-  }
   &::before {
     background: linear-gradient(
       90deg,
