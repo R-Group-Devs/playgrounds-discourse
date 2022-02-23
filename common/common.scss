@@ -356,6 +356,11 @@ div.ac-wrap {
   background: var(--quaternary-low);
 }
 
+.selected-posts {
+  border: 1px solid var(--quaternary);
+  background-color: var(--quaternary-low);
+}
+
 html {
   background-color: var(--secondary);
   background-image: url($HeaderBackground);
