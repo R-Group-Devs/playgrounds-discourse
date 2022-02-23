@@ -149,6 +149,15 @@ h3, h4, h5, h6 {
   padding-top: 1.4em;
 }
 
+.title-wrapper .topic-category {
+  margin-top: 0.5em;
+  margin-left: 0.25em;
+}
+
+.badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {
+  margin-right: 8px;
+}
+
 #global-notice-alert-emails-disabled {
   display: none;
 }
