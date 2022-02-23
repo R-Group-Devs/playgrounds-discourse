@@ -108,6 +108,15 @@ h3, h4, h5, h6 {
   outline-offset: 0;
 }
 
+.select-kit .select-kit-row.is-highlighted {
+  color: var(--quaternary);
+  background: var(--quaternary-low);
+}
+
+.select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover {
+  background: var(--quaternary-low);
+}
+
 #global-notice-alert-emails-disabled {
   display: none;
 }
