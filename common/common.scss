@@ -125,6 +125,22 @@ h3, h4, h5, h6 {
   background: var(--quaternary-low);
 }
 
+.search-menu .browser-search-tip .tip-label, .search-menu .search-random-quick-tip .tip-label {
+  background: var(--quaternary-low);
+}
+
+.search-menu .search-link:focus, .search-menu .search-link:hover {
+  background: var(--quaternary-low);
+}
+
+.custom-search-banner-wrap .search-input .searching {
+  top: 0.65em;
+}
+
+.menu-panel .widget-link:hover, .menu-panel .widget-link:focus, .menu-panel .categories-link:hover, .menu-panel .categories-link:focus {
+  background: var(--quaternary-low) !important;
+}
+
 #global-notice-alert-emails-disabled {
   display: none;
 }
