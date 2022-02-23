@@ -38,12 +38,14 @@ h3, h4, h5, h6 {
   color: var(--primary);
 
   h1 {
+    padding: 0 1em;
     font-size: 50px;
     text-transform: uppercase;
   }
 
   p {
     margin: 30px auto 50px;
+    padding: 0 1em;
     max-width: 800px;
     font-family: BodyFont, monospace !important;
     font-size: 25px !important;
