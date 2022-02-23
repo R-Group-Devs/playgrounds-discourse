@@ -132,12 +132,25 @@ h3, h4, h5, h6 {
   margin-left: 0.25em;
 }
 
+.selected-name {
+  font-family: BodyFont, monospace;
+}
+
 .select-kit.single-select.is-expanded .select-kit-header:not(.btn),
 .select-kit.single-select .select-kit-header:not(.btn):focus,
 .select-kit.single-select .select-kit-header:not(.btn):active {
+  font-family: BodyFont;
   border-color: var(--primary);
-  outline: 1px solid var(--primary);
+  outline: 1px solid var(--secondary);
   outline-offset: 0;
+}
+
+.select-kit .select-kit-row.is-selected {
+  background: var(--quaternary-low);
+}
+
+.select-kit .select-kit-row.is-selected.is-highlighted {
+  background: var(--quaternary-low);
 }
 
 .select-kit .select-kit-row.is-highlighted {
