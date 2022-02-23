@@ -85,8 +85,13 @@ h3, h4, h5, h6 {
   }
 }
 
-.search-input {
+.custom-search-banner-wrap .search-input {
+  margin: 0 1em;
   border-radius: 0;
+}
+
+.btn.no-text .d-icon-search {
+  margin-right: 1em;
 }
 
 .display-search-banner {
