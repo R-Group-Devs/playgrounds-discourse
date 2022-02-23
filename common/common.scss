@@ -117,6 +117,14 @@ h3, h4, h5, h6 {
   background: var(--quaternary-low);
 }
 
+.user-menu .quick-access-panel li {
+  background: none;
+}
+
+.user-menu .quick-access-panel li:hover {
+  background: var(--quaternary-low);
+}
+
 #global-notice-alert-emails-disabled {
   display: none;
 }
