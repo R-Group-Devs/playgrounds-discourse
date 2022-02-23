@@ -331,7 +331,7 @@ div.ac-wrap {
 }
 
 .d-header-icons .icon img.avatar {
-  border-radius: 0;
+  border-radius: 100%;
 }
 
 .menu-panel.drop-down {
@@ -611,7 +611,7 @@ html body #main-outlet {
       .avatar {
         width: 40px;
         height: 40px;
-        border-radius: 0;
+        border-radius: 100%;
       }
       a:first-of-type {
         .avatar {
