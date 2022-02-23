@@ -107,6 +107,10 @@ h3, h4, h5, h6 {
   }
 }
 
+.d-icon.d-icon-d-tracking, .d-icon.d-icon-d-watching {
+  color: var(--primary-high);
+}
+
 .select-kit.single-select.is-expanded .select-kit-header:not(.btn),
 .select-kit.single-select .select-kit-header:not(.btn):focus,
 .select-kit.single-select .select-kit-header:not(.btn):active {
