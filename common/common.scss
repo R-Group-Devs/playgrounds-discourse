@@ -111,6 +111,20 @@ h3, h4, h5, h6 {
   color: var(--primary-high);
 }
 
+.extra-info-wrapper .topic-link {
+  color: var(--secondary);
+}
+
+.extra-info-wrapper .badge-wrapper.bullet span.badge-category,
+.extra-info-wrapper .badge-wrapper.bar span.badge-category,
+.extra-info-wrapper .badge-wrapper.none span.badge-category {
+  color: var(--secondary);
+}
+
+.extra-info-wrapper .badge-wrapper {
+  margin-left: 0.25em;
+}
+
 .select-kit.single-select.is-expanded .select-kit-header:not(.btn),
 .select-kit.single-select .select-kit-header:not(.btn):focus,
 .select-kit.single-select .select-kit-header:not(.btn):active {
