@@ -70,7 +70,7 @@ h3, h4, h5, h6 {
     }
   }
   .search-menu .search-input {
-    border: 2px solid #0d0d0d;
+    border: 1px solid rgba(var(--primary-rgb), 0.2);
     outline: none;
   }
   .results {
@@ -182,11 +182,11 @@ h3, h4, h5, h6 {
 .category-box {
   border-radius: 0 !important;
   box-shadow: none !important;
-  border: 2px solid #0d0d0d !important;
+  border: 1px solid rgba(var(--primary-rgb), 0.2) !important;
 }
 
 .category-logo {
-  border-right: 2px solid #0d0d0d;
+  border-right: 1px solid rgba(var(--primary-rgb), 0.2);
 }
 
 .badge-wrapper.bullet {
@@ -261,9 +261,6 @@ input[type="color"],
 div.ac-wrap {
   border-radius: 0;
 }
-.d-header {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-}
 
 .d-header-icons .d-icon {
   border-radius: 100px;
@@ -336,14 +333,6 @@ div.ac-wrap {
   border-left-color: var(--tertiary);
 }
 
-// graceful ish style
-@mixin box-shadow($value: 0px) {
-  box-shadow: 0 24px 40px rgba(0, 0, 0, 0.07),
-    0 10.8529px 24.1177px rgba(0, 0, 0, 0.0456112),
-    0 4.50776px 10.0172px rgba(0, 0, 0, 0.035),
-    0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
-}
-
 html {
   background-color: var(--secondary);
   background-image: url($HeaderBackground);
@@ -357,7 +346,7 @@ html body #main-outlet {
   border-radius: 0;
   padding: 3em 3em 5%;
   max-width: 1150px;
-  border: 2px solid #0d0d0d;
+  border: 1px solid rgba(var(--primary-rgb), 0.2);
   .archetype-regular & {
     min-height: 500px;
   }
@@ -435,10 +424,8 @@ html body #main-outlet {
       border: 1px solid rgba(var(--primary-rgb), 0.2);
       border-radius: 0;
       position: relative;
-      transition: box-shadow 100ms ease-in-out;
-      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
       &.visited {
-        border: 1px solid rgba(var(--primary-rgb), 0.1);
+        border: 1px solid rgba(var(--primary-rgb), 0.2);
         .discourse-tag {
           opacity: 0.75;
         }
@@ -451,7 +438,6 @@ html body #main-outlet {
       }
       &:hover {
         background-color: var(--secondary);
-        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
         border: 1px solid rgba(var(--primary-rgb), 0.3);
         a.title:not(.badge-notification),
         a.topic-excerpt {
@@ -587,10 +573,6 @@ html body #main-outlet {
   background: var(--secondary);
   border-radius: 0;
   padding: 3em 3em 5%;
-  box-shadow: 0 24px 40px rgba(0, 0, 0, 0.07),
-    0 10.8529px 24.1177px rgba(0, 0, 0, 0.0456112),
-    0 4.50776px 10.0172px rgba(0, 0, 0, 0.035),
-    0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
   z-index: 1;
   position: relative;
 }
