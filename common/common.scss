@@ -314,6 +314,31 @@ div.ac-wrap {
   border: 1px solid var(--primary-low-mid);
 }
 
+.login-modal:not(.hidden) #login-form .input-group input,
+.login-modal:not(.hidden) .login-form .input-group input,
+.login-modal:not(.hidden) .invite-form .input-group input,
+.create-account #login-form .input-group input,
+.create-account .login-form .input-group input,
+.create-account .invite-form .input-group input,
+.invites-show #login-form .input-group input,
+.invites-show .login-form .input-group input,
+.invites-show .invite-form .input-group input {
+  border-radius: 0;
+}
+
+.login-modal:not(.hidden) #login-form .input-group input:focus,
+.login-modal:not(.hidden) .login-form .input-group input:focus,
+.login-modal:not(.hidden) .invite-form .input-group input:focus,
+.create-account #login-form .input-group input:focus,
+.create-account .login-form .input-group input:focus,
+.create-account .invite-form .input-group input:focus,
+.invites-show #login-form .input-group input:focus,
+.invites-show .login-form .input-group input:focus,
+.invites-show .invite-form .input-group input:focus {
+  border: 1px solid var(--primary);
+  box-shadow: none;
+}
+
 .drop-down-mode .d-header-icons .active .icon {
   border: 1px solid transparent;
   .d-icon {
