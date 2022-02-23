@@ -40,7 +40,9 @@ h3, h4, h5, h6 {
   p {
     margin: 30px auto 50px;
     max-width: 800px;
+    font-family: BodyFont, monospace !important;
     font-size: 25px !important;
+    font-weight: 700;
   }
   .btn {
     height: 100%;
