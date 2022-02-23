@@ -40,6 +40,10 @@ h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+.navigation-categories .navigation-container, .categories-list .navigation-container {
+  border-bottom: 3px solid var(--primary-low);
+}
+
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
