@@ -24,6 +24,11 @@ h2, h3, h4, h5, h6 {
   background: var(--primary);
 }
 
+.d-header {
+  padding: 0 2em;
+  width: calc(100% - 4em);
+}
+
 .d-header #site-text-logo {
   font-size: var(--font-up-2);
   color: var(--secondary);
