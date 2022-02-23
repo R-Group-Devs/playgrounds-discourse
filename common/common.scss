@@ -290,6 +290,11 @@ div.ac-wrap {
   color: var(--primary);
 }
 
+.discourse-no-touch .btn-primary:hover, .discourse-no-touch .btn-primary.btn-hover {
+  background: var(--secondary);
+  color: var(--primary);
+}
+
 .d-header-icons .icon {
   border-radius: 0;
   margin-left: 0.3em;
