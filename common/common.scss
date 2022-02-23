@@ -486,6 +486,10 @@ html body #main-outlet {
   background: var(--primary);
 }
 
+.nav-pills > li > a:hover {
+  color: var(--primary);
+}
+
 .nav-pills > li a.active,
 .nav-pills > li > a {
   border-radius: 0;
