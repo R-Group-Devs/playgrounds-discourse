@@ -20,6 +20,10 @@ h2, h3, h4, h5, h6 {
   font-family: BodyFont, monospace !important;
 }
 
+::selection {
+  background: var(--highlight);
+}
+
 .btn-primary {
   background: var(--primary);
 }
