@@ -77,6 +77,8 @@ h2, h3, h4, h5, h6 {
   }
   .results {
     top: 43px;
+    margin: 0 1em;
+    width: calc(600px - 2em);
     border-radius: 0;
   }
   .search-context {
