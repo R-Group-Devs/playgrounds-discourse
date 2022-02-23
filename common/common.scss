@@ -323,11 +323,15 @@ div.ac-wrap {
 }
 
 .discourse-no-touch .btn-primary:hover, .discourse-no-touch .btn-primary.btn-hover {
+  background: var(--primary);
+}
+
+.discourse-no-touch .d-header .btn-primary:hover, .discourse-no-touch .d-header .btn-primary.btn-hover {
   background: var(--secondary);
   color: var(--primary);
 }
 
-.discourse-no-touch .btn-primary:hover .d-icon, .discourse-no-touch .btn-primary.btn-hover .d-icon {
+.discourse-no-touch .d-header .btn-primary:hover .d-icon, .discourse-no-touch .d-header .btn-primary.btn-hover .d-icon {
   color: var(--primary);
 }
 
