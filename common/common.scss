@@ -330,6 +330,18 @@ div.ac-wrap {
   color: var(--primary);
 }
 
+.discourse-no-touch .d-header-icons .current-user .icon:hover, .discourse-no-touch .d-header-icons .current-user .icon:focus {
+  background: var(--primary);
+}
+
+.drop-down-mode .d-header-icons .active .icon {
+  background: var(--primary);
+}
+
+.drop-down-mode .d-header-icons .active .icon:after {
+  border: none;
+}
+
 .d-header-icons .icon {
   border-radius: 0;
   margin-left: 0.3em;
