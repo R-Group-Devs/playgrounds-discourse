@@ -46,6 +46,10 @@ h2, h3, h4, h5, h6 {
     padding: 0 1em;
     font-size: 50px;
     text-transform: uppercase;
+
+    @media (max-width: 560px) {
+      font-size: 28px !important;
+    }
   }
 
   p {
@@ -55,6 +59,11 @@ h2, h3, h4, h5, h6 {
     font-family: BodyFont, monospace !important;
     font-size: 25px !important;
     font-weight: 700;
+
+    @media (max-width: 560px) {
+      margin-bottom: 30px;
+      font-size: 15px !important;
+    }
   }
   .btn {
     height: 100%;
