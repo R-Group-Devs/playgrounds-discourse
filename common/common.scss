@@ -141,6 +141,14 @@ h3, h4, h5, h6 {
   background: var(--quaternary-low) !important;
 }
 
+.topic-body {
+  padding: 2em 0 1em;
+}
+
+.topic-avatar {
+  padding-top: 1.4em;
+}
+
 #global-notice-alert-emails-disabled {
   display: none;
 }
